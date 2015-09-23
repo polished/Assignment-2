@@ -7,46 +7,53 @@ html,body,h1,h2,h3,h4,p,div,a,ul,li,span{
     /*position:relative;*/
 /*}*/
 
+.box{
+    min-height:100px;
+    height: 1000px;
+}
+
+.box2{
+    min-height:100px;
+    height:100px;
+}
+.parent{
+    min-height:100px;
+    height: 400px;
+}
+
 #red{
     width: 100%;
-    height: 5%;
+    height: 100%;
     background: red;
 }
 
 
 #yellow{
     width: 33.3333%;
-    height:90%;
+    height:100%;
     background: yellow;
     float: left;
 }
 
 #green{
     width: 33.3333%;
-    height: 90%;
+    height: 100%;
     background: green;
     float: left;
 }
 
 #blue{
     width: 33.3333%;
-    height: 90%;
+    height: 100%;
     background: blue;
     float: left;
 }
 
 #purple{
     width: 100%;
-    height: 5%;
+    height: 100%;
     background: purple;
 
 }
 
-.box{
-    min-height:100px;
-    height: 5%
-}
-.parent{
-    min-height:100px;
-    height: 90%;
-}
+
